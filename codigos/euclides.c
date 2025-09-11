@@ -9,7 +9,6 @@ int main() {
     printf("Digite o segundo numero: ");
     scanf("%d", &b);
 
-    // Algoritmo de Euclides
     while (b != 0) {
         resto = a % b;
         a = b;
